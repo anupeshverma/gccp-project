@@ -7,12 +7,20 @@
 
 Hello World
 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+<!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
 <df-messenger
   df-cx="true"
   location="asia-south1"
   chat-title="booking_agent"
   agent-id="1fb34e13-e233-4d07-b30a-623f8dee47a9"
+  language-code="en"
+></df-messenger> -->
+  
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="testing_chatbot"
+  agent-id="53e2c246-fa11-4190-ab86-8329fd27917a"
   language-code="en"
 ></df-messenger>
 
